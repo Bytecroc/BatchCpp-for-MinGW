@@ -38,6 +38,25 @@ If the compilation is successful and no errors are reported, the following files
 program_debug.exe: The debug version of your application (optimized for development).
 program_release.exe: The release version of your application (optimized for performance).
 
+**Expample Script:**
+
+Change: "C:\YouPath\BatchCpp.cpp"
+to your Path!
+
+```
+@echo off
+setlocal enabledelayedexpansion
+
+echo =====================================
+echo DEBUG BUILD
+g++ -std=c++20 -g3 -O0 -Wall -Wextra -Wpedantic "C:\YouPath\BatchCpp.cpp" -o program_debug.exe
+
+echo =====================================
+echo RELEASE BUILD
+g++ -std=c++20 -O3 -march=native -flto -ffast-math -fomit-frame-pointer -s  "C:\YouPath\BatchCpp.cpp" -o program_release.exe
+```
+
+
 
 🛠 **Requirements**
 
