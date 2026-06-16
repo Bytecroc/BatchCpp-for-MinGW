@@ -17,10 +17,18 @@ Linker flags and preprocessor requirements (Unicode, GUI mode, PThreads)
 
 ✨ **Features**
 
-Automatic Dependency Detection: Recognizes common libraries based on #include statements.
-Smart Path Discovery: Automatically finds include directories and library paths by traversing your project folder.
-Dual Build Modes: Generates both Debug (with -g3, -O0) and Release (with -O3, -march=native, -flto) configurations in a single script.
-Smart Flags: Automatically detects if your project needs -pthread, -mwindows, or -municode based on your code content.
+Automatic Dependency Detection: 
+Recognizes common libraries based on #include statements.
+
+Smart Path Discovery: 
+Automatically finds include directories and library paths by traversing your project folder.
+
+Dual Build Modes: 
+Generates both Debug (with -g3, -O0) and Release (with -O3, -march=native, -flto) configurations in a single script.
+
+Smart Flags: 
+Automatically detects if your project needs -pthread, -mwindows, or -municode based on your code content.
+
 
 🛠 **How to Use**
 
