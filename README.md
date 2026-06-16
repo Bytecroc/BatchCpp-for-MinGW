@@ -33,9 +33,14 @@ Automatically detects if your project needs -pthread, -mwindows, or -municode ba
 🛠 **How to Use**
 
 Run the tool by passing your main source file as an argument:
+
 cmd
+
 BatchCpp.exe Main.cpp
-Build your project: The tool will create a build_script.bat file in the same directory. Simply run it:
+
+Build your project: 
+The tool will create a build_script.bat file in the same directory. 
+Simply run it:
 cmd
 build_script.bat
 
